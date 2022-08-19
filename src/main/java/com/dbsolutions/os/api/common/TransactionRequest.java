@@ -1,0 +1,15 @@
+package com.dbsolutions.os.api.common;
+
+import com.dbsolutions.os.api.entity.Orders;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class TransactionRequest {
+
+    private Orders orders;
+    private Payment payment;
+}
